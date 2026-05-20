@@ -1,0 +1,14 @@
+{
+  "name": "manager-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Manager assistant dashboard for Salesforce SE managers",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node web/server.js",
+    "postinstall": "cd web && npm install"
+  }
+}

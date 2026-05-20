@@ -1,0 +1,13 @@
+{
+  "name": "manager-bot-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local web UI for manager-bot. Writes into sibling folders (team, notes, data, kudos, outputs).",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

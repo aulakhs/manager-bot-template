@@ -1,0 +1,20 @@
+{
+  "name": "Manager Bot",
+  "description": "Team management dashboard for Salesforce SE managers — built on Claude Code",
+  "repository": "https://github.com/aulakhs/manager-bot-template",
+  "keywords": ["salesforce", "manager", "dashboard", "claude-code"],
+  "stack": "heroku-24",
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ],
+  "formation": {
+    "web": { "quantity": 1, "size": "eco" }
+  },
+  "env": {
+    "NODE_ENV": {
+      "value": "production"
+    }
+  },
+  "scripts": {},
+  "addons": []
+}

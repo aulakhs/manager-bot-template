@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "pulled_at": "example",
+    "quarter": "Q2 FY27",
+    "quarter_label": "Q2 FY27 (May–Jul)",
+    "activity_threshold": 250,
+    "pipeline_threshold": 500000,
+    "customer_threshold": 150,
+    "note": "Example data — run /pull-all to populate with your real team data."
+  },
+  "team": [
+    {
+      "name": "Jane Smith",
+      "slug": "jane",
+      "title": "Distinguished Data & AI Architect",
+      "email": "jsmith@salesforce.com",
+      "sf_id": "005EXAMPLE00001",
+      "q1_hrs": 420,
+      "q1_events": 185,
+      "pipeline_acv": 45000000,
+      "pipeline_opps": 32,
+      "last_1on1": "2026-05-16",
+      "last_1on1_days": 4,
+      "canvas_status": "green",
+      "canvas_focus": "Enterprise POC, RFP response",
+      "canvas_needs": null,
+      "top_opps": [
+        { "name": "Acme Corp - Data Cloud", "amount": 3500000, "stage": "04 - Confirming Value", "close": "2026-07-15" },
+        { "name": "BigCo - Agentforce", "amount": 2100000, "stage": "05 - Negotiating", "close": "2026-06-30" }
+      ],
+      "q1_customer_hrs": 380,
+      "q1_acv_closed": 5200000,
+      "q1_deals_won": 4,
+      "aligned_aes": "Alex Turner, Maria Garcia",
+      "by_quarter": {
+        "q1": { "customer_hrs": 380, "total_hrs": 420, "acv_closed": 5200000, "deals_won": 4, "events": 185 },
+        "q2": { "customer_hrs": 0, "total_hrs": 45, "acv_closed": 0, "deals_won": 0, "events": 28 },
+        "q3": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 },
+        "q4": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 }
+      }
+    },
+    {
+      "name": "Marcus Johnson",
+      "slug": "marcus",
+      "title": "Principal Data & AI Architect",
+      "email": "mjohnson@salesforce.com",
+      "sf_id": "005EXAMPLE00002",
+      "q1_hrs": 310,
+      "q1_events": 145,
+      "pipeline_acv": 12500000,
+      "pipeline_opps": 18,
+      "last_1on1": "2026-05-14",
+      "last_1on1_days": 6,
+      "canvas_status": "yellow",
+      "canvas_focus": "Healthcare POC, Marketing Cloud migration",
+      "canvas_needs": "Need MC specialist support",
+      "top_opps": [
+        { "name": "HealthOrg - MC Next", "amount": 1800000, "stage": "05 - Negotiating", "close": "2026-06-30" },
+        { "name": "PharmaCo - Data Cloud", "amount": 1200000, "stage": "03 - Validating Benefits", "close": "2026-09-15" }
+      ],
+      "q1_customer_hrs": 280,
+      "q1_acv_closed": 850000,
+      "q1_deals_won": 3,
+      "aligned_aes": "Brian Lee, Priya Patel",
+      "by_quarter": {
+        "q1": { "customer_hrs": 280, "total_hrs": 310, "acv_closed": 850000, "deals_won": 3, "events": 145 },
+        "q2": { "customer_hrs": 0, "total_hrs": 30, "acv_closed": 0, "deals_won": 0, "events": 15 },
+        "q3": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 },
+        "q4": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 }
+      }
+    },
+    {
+      "name": "Priya Sharma",
+      "slug": "priya",
+      "title": "Lead Data & AI Architect",
+      "email": "psharma@salesforce.com",
+      "sf_id": "005EXAMPLE00003",
+      "q1_hrs": 180,
+      "q1_events": 95,
+      "pipeline_acv": 8200000,
+      "pipeline_opps": 12,
+      "last_1on1": "2026-05-08",
+      "last_1on1_days": 12,
+      "canvas_status": null,
+      "canvas_focus": null,
+      "canvas_needs": null,
+      "top_opps": [
+        { "name": "FinServ Bank - Agentforce", "amount": 2200000, "stage": "04 - Confirming Value", "close": "2026-08-30" }
+      ],
+      "q1_customer_hrs": 120,
+      "q1_acv_closed": 200000,
+      "q1_deals_won": 1,
+      "aligned_aes": "Tom Wilson",
+      "by_quarter": {
+        "q1": { "customer_hrs": 120, "total_hrs": 180, "acv_closed": 200000, "deals_won": 1, "events": 95 },
+        "q2": { "customer_hrs": 0, "total_hrs": 10, "acv_closed": 0, "deals_won": 0, "events": 5 },
+        "q3": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 },
+        "q4": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 }
+      }
+    },
+    {
+      "name": "Carlos Rivera",
+      "slug": "carlos",
+      "title": "Lead, Technical Architect",
+      "email": "crivera@salesforce.com",
+      "sf_id": "005EXAMPLE00004",
+      "q1_hrs": 0,
+      "q1_events": 0,
+      "pipeline_acv": 0,
+      "pipeline_opps": 0,
+      "last_1on1": "2026-05-10",
+      "last_1on1_days": 10,
+      "canvas_status": null,
+      "canvas_focus": null,
+      "canvas_needs": null,
+      "top_opps": [],
+      "q1_customer_hrs": 0,
+      "q1_acv_closed": 0,
+      "q1_deals_won": 0,
+      "aligned_aes": "Sarah Kim, David Chen",
+      "status": "onboarding",
+      "status_note": "Onboarding — recently hired",
+      "by_quarter": {
+        "q1": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 },
+        "q2": { "customer_hrs": 0, "total_hrs": 2, "acv_closed": 0, "deals_won": 0, "events": 2 },
+        "q3": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 },
+        "q4": { "customer_hrs": 0, "total_hrs": 0, "acv_closed": 0, "deals_won": 0, "events": 0 }
+      }
+    }
+  ],
+  "canvas": {},
+  "load_balancing_call": { "today": false },
+  "q2_pacing": {
+    "quarter": "Q2 FY27",
+    "period": "May–Jul 2026",
+    "acv_closed": 0,
+    "pipeline": 65700000,
+    "pipeline_deals": 62,
+    "target": 15000000
+  },
+  "travel": []
+}
